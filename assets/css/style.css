@@ -1,0 +1,113 @@
+/* --------------------------------Headings */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+/* ------------------------------------------Background Image */
+#bg-image  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fafafa;
+    background: url("../images/bg.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+/* ------------------------------------------Nav Bar*/
+
+#nav {
+    color: #ffffff;
+    display: flex;
+    transition: transform 1s ease, opacity 1s ease;
+    background: rgba(255, 255, 255, 0.175);
+    height: 4rem;
+    line-height: 4rem;
+    margin: -4rem auto 0 auto;
+    overflow: hidden;
+    padding: 0 2rem 0 0;
+    position: relative;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+    z-index: 2;
+}
+
+#nav ul.links {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+#nav ul.links li {
+    display: block;
+    padding-left: 0;
+}
+
+#nav ul.links li a {
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: block;
+    font-size: 0.8rem;
+    outline: none;
+    padding: 0 2rem;
+}
+
+#nav ul.links li a:hover {
+    color: inherit !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#nav ul.links li.active {
+    background-color: #ffffff;
+}
+
+#nav ul.links li.active a {
+    color: #1e252d;
+}
+
+#nav ul.links li.active a:hover {
+    color: #18bfef !important;
+}
+
+
+/* ------------------------------------------Main content */
+#main {
+		color: black;
+        background-color: #ffffff;
+		position: relative;
+		margin: 0 auto;
+		width: calc(100% - 4rem);
+		max-width: 72rem;
+		z-index: 2;
+	}
+
+/*--------------------------------------- Intro */
+
+#intro {
+    color: #ffffff;
+    padding: 8rem 4rem 6rem 4rem ;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 5rem;
+}
+
+#intro p {
+    font-size: 1.25rem;
+}
