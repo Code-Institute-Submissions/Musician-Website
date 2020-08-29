@@ -1,11 +1,22 @@
-/* --------------------------------Headings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 
-header {
-    margin: 0;
+
+/*--------------------------------------- Intro */
+
+#intro {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding: 8rem 4rem 6rem 4rem ;
+    text-align: center;
 }
 
-.heading {
-    margin-left: 50px;
+#intro h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+#intro p {
+    font-size: 1.25rem;
 }
 
 /* ------------------------------------------Background Image */
@@ -17,7 +28,7 @@ header {
     background-color: #fafafa;
     background: url("../images/bg.jpg");
     background-size: auto;
-    background-position: center;
+    background-position: bottom;
     background-repeat: repeat;
     background-attachment: fixed;
     z-index: -1;
@@ -28,16 +39,14 @@ header {
 #nav {
     color: #ffffff;
     display: flex;
-    transition: transform 1s ease, opacity 1s ease;
     background: rgba(255, 255, 255, 0.175);
     height: 4rem;
     line-height: 4rem;
-    margin: -4rem auto 0 auto;
+    margin: 0 auto;
     overflow: hidden;
     padding: 0 2rem 0 0;
     position: relative;
-    width: calc(100% - 4rem);
-    max-width: 72rem;
+    width: calc(100% - 20rem);
     z-index: 2;
 }
 
@@ -60,8 +69,10 @@ header {
 }
 
 #nav ul.links li a {
+    color: #fafafa;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     display: block;
+    text-decoration: none;
     font-size: 0.8rem;
     outline: none;
     padding: 0 2rem;
@@ -85,29 +96,60 @@ header {
 }
 
 
-/* ------------------------------------------Main content */
+#nav ul.social-links li a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+#nav ul.social-links li a:hover {
+    color: #18bfef !important;
+}
+
+
+/* ------------------------------------------Main container */
 #main {
-		color: black;
-        background-color: #ffffff;
-		position: relative;
-		margin: 0 auto;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
-		z-index: 2;
-	}
+    color: black;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 20rem);
+    z-index: 2;
+}
 
-/*--------------------------------------- Intro */
-
-#intro {
-    color: #ffffff;
-    padding: 8rem 4rem 6rem 4rem ;
+#signature{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(19, 18, 18, 0.74);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    line-height: 1.5;
     text-align: center;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-#intro h1 {
-    font-size: 5rem;
+#signature ul {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    list-style-type: none;
 }
 
-#intro p {
-    font-size: 1.25rem;
+#signature ul li {
+    border-left: solid 2px;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+#signature ul li:first-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
 }
