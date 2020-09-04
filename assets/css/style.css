@@ -30,31 +30,53 @@ body {
 
 /* ---------------------------------------Carousel Slides */
 
- @media (min-width: 768px) {
-    .slide-1 {
-    position: absolute;
+
+.slide-1 {
+    background-image: url("/../assets/images/12.jpg");
+    background-size: cover;
+    background-position: center; 
+    position: center;
+    top: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.slide-2 {
+    background-image: url("/../assets/images/1.jpg");
+    background-size: cover;
+    background-position: center; 
     top: 0;
     left: 0;
     min-width: 100%;
-    /* height: 32rem; */
-    }
+    height: 32rem;
+}
 
-    .slide-2 {
-    position: absolute;
+.slide-3 {
+    background-image: url("/../assets/images/11.jpg");
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    position: relative;
     bottom: 0;
     left: 0;
     min-width: 100%;
-    /* height: 32rem; */
-    }
+    height: 32rem;
+}
+
+
+/* small screen slides */ 
+
+@media only screen and (max-width: 767px) {
 
     .slide-3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    min-width: 100%;
-    /* height: 32rem; */
+        background-image: url("/../assets/images/11.jpg");
+        background-size: cover;
+        background-position: center; 
+        bottom: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
     }
- }
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
