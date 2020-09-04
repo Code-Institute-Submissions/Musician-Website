@@ -34,7 +34,7 @@ body {
 /* ---------------------------------------Carousel Slides */
 
 .slide-1 {
-    background-image: url("/../assets/images/12.jpg");
+    background-image: url("../images/12.jpg");
     background-size: cover;
     background-position: center; 
     position: center;
