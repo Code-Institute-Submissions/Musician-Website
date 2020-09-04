@@ -7,6 +7,10 @@ body {
   color: #5a5a5a;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -86,17 +90,30 @@ body {
 .marketing h2 {
   font-weight: 400;
 }
+
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
 
+#gigs-heading{
+    text-align: center;
+}
+
+#testimonials-heading{
+    text-align: center;
+    margin-top: 10rem;
+}
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.heading-divider {
+  margin: 2rem 0 5rem 0;
 }
 
 /* Thin out the marketing headings */
@@ -106,10 +123,35 @@ body {
   letter-spacing: -.05rem;
 }
 
-img {
+.featurette img {
     width: 100%;
-    box-shadow: 2px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
+
+.testimonials img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.wedding-logo {
+    margin: 50px 0;
+    border: 2px dotted gray;
+}
+
+@media (max-width: 991px) {
+    .testimonials img {
+        margin-bottom: 10px;
+        margin-top: 0;
+}
+}
+.gig-date {
+    margin-top: 1rem;
+}
+
+
+
+
 
 /* ---------------------------------------Footer */
 
@@ -118,6 +160,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     bottom: 0;
+    line-height: 1.5;
     width: 100%;
     height: 5rem;    
     text-align: center;
@@ -126,9 +169,23 @@ footer {
 }
 
 footer ul {
+    margin-top: 5rem;
+    padding-top: 1rem;
     list-style-type: none;
-    position: relative;
-    top: 1rem;
+}
+
+footer ul li {
+    border-left: solid 2px;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+footer ul li:first-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 /* RESPONSIVE CSS
