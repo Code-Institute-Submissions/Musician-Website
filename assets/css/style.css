@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
+    font-family: 'Open Sans', sans-serif;
   padding-top: 3rem;
   color: #5a5a5a;
 }
@@ -15,6 +17,9 @@ nav {
     background-color: rgb(122, 122, 122);
 }
 
+.logo {
+    font-weight: 600;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -169,6 +174,10 @@ nav {
 }
 .gig-date {
     margin-top: 1rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
 }
 
 /* ---------------------------------------Footer */
@@ -205,6 +214,12 @@ footer ul {
 
 footer ul#copyright {
     padding-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    line-height: 1.5;
 }
 
 footer ul.social-links li {
