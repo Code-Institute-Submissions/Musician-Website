@@ -255,3 +255,33 @@ footer ul.social-links li a:hover {
     margin-top: 7rem;
   }
 }
+
+/* ---------------------Gallery */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    /* background-color: rgb(122, 122, 122); */
+    background-image: linear-gradient(to right, rgb(122, 122, 122), rgb(58, 58, 58));
+}
+
+#photo img{
+    width: 100%;
+}
+
+@media screen and (max-width: 943px) {
+
+    #photo{
+        column-count:3;
+    }
+    
+}
+
+  @media screen and (max-width: 800px) {
+
+    #photo {
+     column-count:2;
+    }
+  }
