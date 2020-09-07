@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Jekyll v4.1.1">
+	<title>Joe Bloggs Music</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+	<!-- Bootstrap core CSS -->
+	<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+	<!-- Custom styles for this template -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+		crossorigin="anonymous" />
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+			<a class="navbar-brand logo" href="#">Joe Bloggs Music</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Bookings</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</header>
+	<section class="form-section">
+		<form class="booking-form" action="https://formdump.codeinstitute.net/" method="POST">
+			<h2>Enquire about Booking Joe Bloggs!</h2>
+			<label for="name">Full Name</label>
+			<input class="text-input" type="text" id="name" name="full_name" required>
+			<label for="email">Email Address</label>
+			<input class="text-input" type="email" id="email" name="email_address" required>
+            
+            <label for="gig-type">Gig Type: </label>
+            <select name="gig-type">
+                <option value="bar-gig">Bar Gig</option>
+                <option value="wedding">Wedding</option>
+                <option value="private-function">Private Function</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br>
+            <label for="booking-date">Date: </label>
+            <input type="date" id="booking-date" name="booking-date">
+            <br>
+			<div class="form-group">
+			<label for="full-band">Full 5 piece Band </label>
+            <i class="fa fa-users" aria-hidden="true"></i>
+			<input type="radio" id="full-band" name="band-size-preference" required value="full-band">
+			<br>
+			<label for="solo-band">Just Joe Bloggs <i class="fa fa-user"></i></label>
+			<input type="radio" id="solo-band" name="band-size-preference" required value="solo-band">
+			</div>
+            <div id="button-container">
+			<button type="submit" class="btn btn-lg btn-info"><i class="fa fa-music" aria-hidden="true"></i> Book a Gig! <i class="fa fa-music" aria-hidden="true"></i></button>
+            </div>
+		</form>
+	</section>
+
+
+
+	<!-- FOOTER -->
+	<footer>
+		<ul class="social-links">
+			<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li class="left-border"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li class="left-border"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li class="left-border"><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+		</ul>
+		<ul id="copyright">
+			<li>&copy; Joe Bloggs Music</li>
+			<li>Website Created by Daniel Slattery</li>
+		</ul>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script>
+		window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+	</script>
+	<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

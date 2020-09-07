@@ -256,7 +256,7 @@ footer ul.social-links li a:hover {
   }
 }
 
-/* ---------------------Gallery */
+/* ----------------------------------------------Gallery */
 
 #photo {
     clear: both;
@@ -285,3 +285,58 @@ footer ul.social-links li a:hover {
      column-count:2;
     }
   }
+
+  /* ----------------------------------------------form */
+.form-section {
+    clear: left;
+    background: url("../images/f.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.form-group {
+    margin-top: 10px;
+    line-height: 200%;
+}
+
+#booking-date {
+    margin-top: 15px ; 
+}
+
+#button-container {
+    text-align: center;
+}
+
+.booking-form{
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.booking-form h2{
+  color: #fafafa;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-input{
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover{
+  border-color: #17a2b8;
+}
+
+/*end form*/
