@@ -4,189 +4,167 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
+    <link rel="icon" type="image/png" href="assets/images/guitar-fav.png">
     <title>Joe Bloggs Music</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap, Font-Awesome, CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
+    <!-- Custom style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
+  
   <body>
+  <!-- Nav Bar Header -->
     <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-    <a class="navbar-brand logo" href="#">Joe Bloggs Music</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="bookings.html">Bookings</a>
-        </li>
-      </ul>
-
-    </div>
-  </nav>
-</header>
-
-<main role="main">
-<!-- Carousel -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="slide-1 d-block w-100" alt="first slide"></div>  
-            <div class="container">
-            <div class="carousel-caption text-left">
-                <h1 class="logo">Joe Bloggs Music</h1>
-                <p>A solo artist bringing a mix of rock, folk and pop music to your local bars</p>
-                <p><a class="btn btn-lg btn-info" href="bookings.html" role="button">Book Now</a></p>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <a class="navbar-brand logo" href="#">Joe Bloggs Music</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bookings.html">Bookings</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--/END Nav Bar Header -->
+    <!-- Main Container -->
+    <main role="main">
+        
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide-1 d-block w-100" alt="first slide"></div>  
+                    <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1 class="logo">Joe Bloggs Music</h1>
+                        <p>A solo artist bringing a mix of rock, folk and pop music to your local bars</p>
+                        <p><a class="btn btn-lg btn-info" href="bookings.html" role="button">Book Now</a></p>
+                    </div>
+                    </div>
+            </div>
+            <div class="carousel-item">
+            <div class="slide-2 d-block w-100" alt="second slide"></div>
+                <div class="container">
+                <div class="carousel-caption">
+                    <h1>Solo Artist Producing a Full Band Sound</h1>
+                    <p>Specialised audio equipment such as loop and effect pedals.</p>
+                    <p><a class="btn btn-lg btn-info" href="gallery.html" role="button">See Gallery</a></p>
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide-3 d-block w-100" alt="third slide"></div>
+                <div class="container">
+                <div class="carousel-caption text-right">
+                    <h1>Also available for Weddings</h1>
+                    <p>A full 5 piece band available for weddings and private functions</p>
+                    <p><a class="btn btn-lg btn-info" href="bookings.html" role="button">Enquire!</a></p>
+                </div>
+                </div>
             </div>
             </div>
-      </div>
-      <div class="carousel-item">
-      <div class="slide-2 d-block w-100" alt="second slide"></div>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Solo Artist Producing a Full Band Sound</h1>
-            <p>Specialised audio equipment such as loop and effect pedals.</p>
-            <p><a class="btn btn-lg btn-info" href="gallery.html" role="button">See Gallery</a></p>
-          </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="slide-3 d-block w-100" alt="third slide"></div>
-        <div class="container">
-          <div class="carousel-caption text-right">
-            <h1>Also available for Weddings</h1>
-            <p>A full 5 piece band available for weddings and private functions</p>
-            <p><a class="btn btn-lg btn-info" href="bookings.html" role="button">Enquire!</a></p>
-          </div>
+        <!-- /Carousel -->
+    
+        <div class="container marketing">
+            <!-- Upcoming Gigs Cards -->
+            <h2 class="uppercase featurette-heading text-muted" id="gigs-heading">Upcoming Gigs</h2>
+
+            <hr class="heading-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">The Quays Bar, <span class="text-muted">Galway</span></h2>
+                    <p class="gig-date"><i class="fa fa-calendar" aria-hidden="true"></i> Sat 12th September | Music Starts at 9pm</p>
+                    <p class="lead">Located in the city centre of Galway’s vibrant ‘Latin Quarter’ The Quays, Galway is one of Galway’s most famous and historic drinking establishments. For close on 400 years The Quays has catered to both Galwegians and visitors to Galway city.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/images/quays3.jpg" alt="The Quays Bar" width="500" id="quays-image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Keary's Bar, <span class="text-muted">Loughrea</span></h2>
+                    <p class="gig-date"><i class="fa fa-calendar" aria-hidden="true"></i> Fri 11th September | Music Starts at 10pm</p>
+                    <p class="lead">A lively pub in the heart of Loughrea. Live music every weekend</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="assets/images/kearys.jpg" alt="Kearys Bar" width="500" id="kearys-image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Monroe's Tavern, <span class="text-muted">Galway</span></h2>
+                    <p class="gig-date"><i class="fa fa-calendar" aria-hidden="true"></i> Sat 19th September | Music Starts at 8:30pm</p>
+                    <p class="lead">A warm welcome awaits you in this wonderful bar in the heart of Galway's Westend.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/images/monroes2.jpg" alt="Monroes Bar" width="500" id="monroes-image">
+                </div>
+            </div>
+            <!-- /END Upcoming Gigs Cards -->
+            
+            <!-- Testimonials -->
+            <h3 class="uppercase featurette-heading text-muted" id="testimonials-heading">Testimonials</h3>
+
+            <hr class="heading-divider">
+
+            <div class="row testimonials">
+                <div class="col-lg-4">
+                    <img src="assets/images/John-Doe.jpg" alt="John Doe" height="200">
+                    <h2>John Doe</h2>
+                    <p>"Ah he's very good to be fair!"</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://weddingbandreviews.ie/wp-content/uploads/WBR-logo-and-badge-dragged.png" alt="Wedding Reviews Logo" height="100" class="wedding-logo" >
+                    <h2>Wedding-Bands.com</h2>
+                    <p>"Unreal, Savage, Class! Five Stars!"</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/jane-doe.jpg" alt="Jane Doe" height="200">
+                    <h2>Jane Doe</h2>
+                    <p>"Plays at my bar every month. Has the place bouncing!"</p>
+                </div>
+            </div>
+            <!-- /End Testimonials -->
         </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-<!-- /Carousel -->
+        <!-- /End Marketing container -->
+    </main>
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- START THE FEATURETTES -->
-    <h2 class="uppercase featurette-heading text-muted" id="gigs-heading">Upcoming Gigs</h2>
-
-    <hr class="heading-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">The Quays Bar, <span class="text-muted">Galway</span></h2>
-        <p class="gig-date"><i class="fa fa-calendar" aria-hidden="true"></i> Sat 12th September | Music Starts at 9pm</p>
-        <p class="lead">Located in the city centre of Galway’s vibrant ‘Latin Quarter’ The Quays, Galway is one of Galway’s most famous and historic drinking establishments. For close on 400 years The Quays has catered to both Galwegians and visitors to Galway city.</p>
-      </div>
-      <div class="col-md-5">
-        <img src="assets/images/quays3.jpg" alt="The Quays Bar" width="500" id="quays-image">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Keary's Bar, <span class="text-muted">Loughrea</span></h2>
-        <p class="gig-date"><i class="fa fa-calendar" aria-hidden="true"></i> Fri 11th September | Music Starts at 10pm</p>
-        <p class="lead">A lively pub in the heart of Loughrea. Live music every weekend</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="assets/images/kearys.jpg" alt="Kearys Bar" width="500" id="kearys-image">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Monroe's Tavern, <span class="text-muted">Galway</span></h2>
-        <p class="gig-date"><i class="fa fa-calendar" aria-hidden="true"></i> Sat 19th September | Music Starts at 8:30pm</p>
-        <p class="lead">A warm welcome awaits you in this wonderful bar in the heart of Galway's Westend.</p>
-      </div>
-      <div class="col-md-5">
-        <img src="assets/images/monroes2.jpg" alt="Monroes Bar" width="500" id="monroes-image">
-      </div>
-    </div>
-
-    <!-- <hr class="featurette-divider"> -->
-
-    <!-- /END THE FEATURETTES -->
-    <!-- Testimonials -->
-    <h3 class="uppercase featurette-heading text-muted" id="testimonials-heading">Testimonials</h3>
-
-    <hr class="heading-divider">
-
-    <div class="row testimonials">
-      <div class="col-lg-4">
-       <img src="assets/images/John-Doe.jpg" alt="John Doe" height="200">
-        <h2>John Doe</h2>
-        <p>"Ah he's very good to be fair!"</p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="https://weddingbandreviews.ie/wp-content/uploads/WBR-logo-and-badge-dragged.png" alt="Wedding Reviews Logo" height="100" class="wedding-logo" >
-        <h2>Wedding-Bands.com</h2>
-        <p>"Unreal, Savage, Class! Five Stars!"</p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="assets/images/jane-doe.jpg" alt="Jane Doe" height="200">
-        <h2>Jane Doe</h2>
-        <p>"Plays at my bar every month. Has the place bouncing!"</p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /Testimonials -->
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer>
+    <!-- FOOTER -->
+    <footer>
     <ul class="social-links">
         <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
         <li class="left-border"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -194,9 +172,12 @@
         <li class="left-border"><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
     </ul>
     <ul id="copyright"><li>&copy; Joe Bloggs Music</li><li>Website Created by Daniel Slattery</li></ul>
-  </footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
 </html>
