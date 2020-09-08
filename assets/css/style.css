@@ -295,17 +295,18 @@ footer ul.social-links li a:hover {
     height: 900px;
 }
 
-.form-group {
-    margin-top: 10px;
-    line-height: 200%;
+#booking-date {
+    margin-top: 15px ;
+    max-width: 160px; 
 }
 
-#booking-date {
-    margin-top: 15px ; 
+#venue {
+    width: 160px;
 }
 
 #button-container {
     text-align: center;
+    margin: 20px 0;
 }
 
 .booking-form{

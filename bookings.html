@@ -14,7 +14,7 @@
 	<!-- Bootstrap core CSS -->
 	<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
 
 	<style>
 		.bd-placeholder-img {
@@ -64,35 +64,62 @@
 	</header>
 	<section class="form-section">
 		<form class="booking-form" action="https://formdump.codeinstitute.net/" method="POST">
-			<h2>Enquire about Booking Joe Bloggs!</h2>
+			<h2>Enquire about Booking Joe Bloggs</h2>
 			<label for="name">Full Name</label>
 			<input class="text-input" type="text" id="name" name="full_name" required>
 			<label for="email">Email Address</label>
 			<input class="text-input" type="email" id="email" name="email_address" required>
-            
-            <label for="gig-type">Gig Type: </label>
-            <select name="gig-type">
-                <option value="bar-gig">Bar Gig</option>
-                <option value="wedding">Wedding</option>
-                <option value="private-function">Private Function</option>
-                <option value="other">Other</option>
-            </select>
 
-            <br>
-            <label for="booking-date">Date: </label>
-            <input type="date" id="booking-date" name="booking-date">
-            <br>
-			<div class="form-group">
-			<label for="full-band">Full 5 piece Band </label>
-            <i class="fa fa-users" aria-hidden="true"></i>
-			<input type="radio" id="full-band" name="band-size-preference" required value="full-band">
-			<br>
-			<label for="solo-band">Just Joe Bloggs <i class="fa fa-user"></i></label>
-			<input type="radio" id="solo-band" name="band-size-preference" required value="solo-band">
+			<div class="row">
+				<div class="col-5">
+					<label for="venue">Venue: </label>
+				</div>
+				<div class="col-7">
+					<select name="venue" id="venue">
+                        <option value="bar-gig">Bar</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="private-function">Private Function</option>
+                        <option value="other">Other</option>
+                    </select>
+				</div>
 			</div>
-            <div id="button-container">
-			<button type="submit" class="btn btn-lg btn-info"><i class="fa fa-music" aria-hidden="true"></i> Book a Gig! <i class="fa fa-music" aria-hidden="true"></i></button>
+            <br>
+
+			<div class="row">
+				<div class="col-5">
+					<label for="booking-date">Date: </label>
+				</div>
+				<div class="col-7">
+					<input type="date" id="booking-date" name="booking-date">
+                </div>
+			</div>
+            <br>
+
+            <div class="row">
+                <div class="col-6 col-sm-5">
+                    <label for="full-band">Full Band </label>
+                </div>
+                <div class="col-1">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                </div>
+                <div class="col-4">
+                    <input type="radio" id="full-band" name="band-size-preference" required value="full-band">
+                </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-6 col-sm-5">
+                    <label for="solo-band">Just Joe Bloggs </label>
+                </div>
+                <div class="col-1"><i class="fa fa-user"></i></div>
+                <div class="col-4">
+                    <input type="radio" id="solo-band" name="band-size-preference" required value="solo-band">
+                </div>
+            </div>
+            <div id="button-container">
+                <button type="submit" class="btn btn-lg btn-info">Book a Gig! <i class="fa fa-music" aria-hidden="true"></i></button>
+            </div>
+            
 		</form>
 	</section>
 
