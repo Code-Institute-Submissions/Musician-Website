@@ -75,25 +75,9 @@ nav {
     height: 32rem;
 }
 
+/* ----------------------------------Main Container */
 
-/* Small screen slide  */ 
-
-@media only screen and (max-width: 767px) {
-
-    .slide-3 {
-        background-image: url("../images/11.jpg");
-        background-size: cover;
-        background-position: center; 
-        bottom: 0;
-        left: 0;
-        min-width: 100%;
-        height: 32rem;
-    }
-}
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
+/* Center align the text within the testimonials */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -117,8 +101,7 @@ nav {
     font-size:2.5rem;
 }
 
-/* Featurettes
-------------------------- */
+/* ---------------------------------Upcoming Gigs Cards */
 
 .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -135,11 +118,9 @@ nav {
     background: #17a2b8;
     background-image: linear-gradient(to right, #ccc, #17a2b8, #ccc);
     width: calc(100% - 30vw);
-}
+}   
 
-    
-
-/* Thin out the marketing headings */
+/* Thin out the upcoming gigs headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -166,7 +147,7 @@ nav {
     .testimonials img {
         margin-bottom: 10px;
         margin-top: 0;
-}
+    }
 }
 .gig-date {
     margin-top: 1rem;
@@ -252,6 +233,21 @@ footer ul.social-links li a:hover {
   }
 }
 
+/* Small screen carousel slide  */ 
+
+@media only screen and (max-width: 767px) {
+
+    .slide-3 {
+        background-image: url("../images/11.jpg");
+        background-size: cover;
+        background-position: center; 
+        bottom: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+    }
+}
+
 /* ----------------------------------------------Gallery */
 
 #photo {
@@ -282,7 +278,7 @@ footer ul.social-links li a:hover {
     }
   }
 
-  /* ----------------------------------------------form */
+  /* ----------------------------------------------Booking Form */
 .form-section {
     clear: left;
     background: url("../images/f.jpg");
@@ -335,5 +331,3 @@ footer ul.social-links li a:hover {
 .text-input:hover{
   border-color: #17a2b8;
 }
-
-/*end form*/
