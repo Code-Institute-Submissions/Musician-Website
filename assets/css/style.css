@@ -284,16 +284,15 @@ footer ul.social-links li a:hover {
     background: url("../images/f.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 700px;
 }
 
 #booking-date {
-    /* margin-top: 15px ; */
-    max-width: 160px; 
+    width: 175px; 
 }
 
 #venue {
-    width: 160px;
+    width: 175px;
 }
 
 #button-container {
@@ -301,18 +300,15 @@ footer ul.social-links li a:hover {
     margin: 20px 0;
 }
 
-@media(min-width: 501px) {
-
-    .booking-form {
-        margin-top: 150px;
-        color: #fff;
-        background-color: rgba(60, 60, 60, 0.6);
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        padding: 30px;
-        border-radius: 10px;
-    }
+.booking-form {
+    position: absolute;
+    border-radius: 10px;  
+    width: 95%;  
+    left: 2.5%;
+    margin: 25px 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
 }
 
 .booking-form h2 {
@@ -335,18 +331,18 @@ footer ul.social-links li a:hover {
   border-color: #17a2b8;
 }
 
-@media (max-width: 500px) {
+@media(min-width: 600px) {
 
     .booking-form {
-        margin: auto;        border-radius: 5px;      
-    }
-
-
-
-05margin-top: 150px;
+        margin-top: 150px;
         color: #fff;
-        background-color:        left: 10%;
-                borderm-section {
-        height: 700px;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 500px;
+        left: 10%;
+        padding: 30px;
     }
-}   
+
+    .form-section {
+        height: 900px;
+    }
+}     border-radius: 5px; 
