@@ -288,7 +288,7 @@ footer ul.social-links li a:hover {
 }
 
 #booking-date {
-    margin-top: 15px ;
+    /* margin-top: 15px ; */
     max-width: 160px; 
 }
 
@@ -301,24 +301,27 @@ footer ul.social-links li a:hover {
     margin: 20px 0;
 }
 
-.booking-form{
-  margin-top: 150px;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  max-width: 400px;
-  position: absolute;
-  left: 10%;
-  padding: 30px;
-  border-radius: 10px;
+@media(min-width: 501px) {
+
+    .booking-form {
+        margin-top: 150px;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        padding: 30px;
+        border-radius: 10px;
+    }
 }
 
-.booking-form h2{
+.booking-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.text-input{
+.text-input {
   background: transparent;
   color: #fafafa;
   width: 100%;
@@ -328,6 +331,22 @@ footer ul.social-links li a:hover {
   border-radius: 2px;
 }
 
-.text-input:hover{
+.text-input:hover {
   border-color: #17a2b8;
 }
+
+@media (max-width: 500px) {
+
+    .booking-form {
+        margin: auto;        border-radius: 5px;      
+    }
+
+
+
+05margin-top: 150px;
+        color: #fff;
+        background-color:        left: 10%;
+                borderm-section {
+        height: 700px;
+    }
+}   
