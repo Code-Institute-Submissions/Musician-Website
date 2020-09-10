@@ -66,10 +66,10 @@ Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on tho
 Chrome DevTools was used to test for the various mobile viewport sizes.
 
 5. Booking Form
-* Go to Bookings page
-* Try to submit the form without a correct syntax e-mail address and you will get an error message requesting a proper e-mail address be entered.
-* Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
-* When you do hit the Submit button, the code-institute form dump page will load showing the details of info submitted from the form.
+    * Go to Bookings page
+    * Try to submit the form without a correct syntax e-mail address and you will get an error message requesting a proper e-mail address be entered.
+    * Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
+    * When you do hit the Submit button, the code-institute form dump page will load showing the details of info submitted from the form.
 
 ## Deployment
 Joe Bloggs Music was developed using Gitpod, and all commits were pushed to Github using Git.
