@@ -23,16 +23,23 @@ The website is simple and structured in a way that is easy and intuitive to navi
 * As a user I also want to be able to navagate through photos and and navagate to the artists social media pages. 
 * As a user I would also like to enquire about booking the artist.
 
+### Wireframes
+My wireframe for this project can be found in the UX folder.
+
+* Desktop Wireframe ADD LINK
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+* Index - this page the intro section displays a carousel showcasing a brief introduction to Joe Bloggs
+and what he's all about. 
+There are two additional sections, "Upcoming Gigs" and "Testimonials" to advertise the artist.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+* Gallery - A showcase of various pictures of equipment, the artist, the artists band members and live shows.
+
+* Bookings - This page allows the user to fill out a form to enquire about making a booking.
 
 ### Features Left to Implement
 Another feature idea
