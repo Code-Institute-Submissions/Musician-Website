@@ -14,7 +14,7 @@ make a booking.
 ## UX
 
 The purpose of the site is to promote the work of the Artist. This is done by showcasing photos and 
-testimonials, and advertising upcoming shows. The function to book the artist via the website is included.
+testimonials, and advertising upcoming shows. The function to book the artist via the website is also available.
 
 The website is simple and structured in a way that is easy and intuitive to navigate through.
 
@@ -52,12 +52,24 @@ There are two additional sections, "Upcoming Gigs" and "Testimonials" to adverti
 8. W3C Markup Validation Service Used to run all html and css code thru a validation process looking for errors. https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
 
 ## Testing
-1. I have validated all HTML files and CSS using online validation sites cited below and checked across different browsers and devices.
+1. I have validated all HTML files and CSS using online validation sites cited below.
+    *  #### HTML - [W3C HTML Validator](https://validator.w3.org/)
+    *  #### CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-2. http://ami.responsivedesign.is/ has been used to see how the site performs on different Apple devices and their viewports, all pages, links, 
-icons performed as expected on all devices. I also used it to create the AppleDevicesView.png at the top of this Readme.
 
+2. http://ami.responsivedesign.is/ has been used to see how the site performs on different view port sized devices.
 
+3. Desktop
+Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. 
+
+4. Mobile
+Chrome DevTools was used to test for the various mobile viewport sizes.
+
+5. Booking Form
+* Go to Bookings page
+* Try to submit the form without a correct syntax e-mail address and you will get an error message requesting a proper e-mail address be entered.
+* Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
+* When you do hit the Submit button, the code-institute form dump page will load showing the details of info submitted from the form.
 
 ## Deployment
 Joe Bloggs Music was developed using Gitpod, and all commits were pushed to Github using Git.
