@@ -61,6 +61,12 @@ https://developer.mozilla.org/en-US/docs/Web/HTML
 
 ## Deployment
 
+1. I uploaded all files to my Github repository located at this url; https://github.com/Daniel-Slattery/Musician-Website which is for this individual project.
+
+2. To publish the project to see it working as a live website, I used published the master branch of my 
+Github repository using Github Pages. 
+Web site is published at https://daniel-slattery.github.io/Musician-Website/
+
 ## Credits
 
 ### Content
