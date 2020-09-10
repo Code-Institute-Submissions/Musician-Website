@@ -31,7 +31,7 @@ My wireframe for this project can be found in the UX folder.
 ## Features
 
 ### Existing Features
-* Index - this page the intro section displays a carousel showcasing a brief introduction to Joe Bloggs
+* Home - this page the intro section displays a carousel showcasing a brief introduction to Joe Bloggs
 and what he's all about. 
 There are two additional sections, "Upcoming Gigs" and "Testimonials" to advertise the artist.
 
@@ -58,19 +58,40 @@ https://developer.mozilla.org/en-US/docs/Web/HTML
 8. W3C Markup Validation Service Used to run all html and css code thru a validation process looking for errors; https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
 
 ## Testing
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+Contact form:
+Go to the "Contact Us" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with an invalid email address and verify that a relevant error message appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 ## Deployment
 
 1. I uploaded all files to my Github repository located at this url; https://github.com/Daniel-Slattery/Musician-Website which is for this individual project.
 
-2. To publish the project to see it working as a live website, I used published the master branch of my 
+2. To publish the project to see it working as a live website, I published the master branch of my 
 Github repository using Github Pages. 
 Web site is published at https://daniel-slattery.github.io/Musician-Website/
 
 ## Credits
 
 ### Content
+1. Bootstrap 4.0 Examples; https://getbootstrap.com/docs/4.0/examples/carousel/ "Carousel". Used on my home page.
+
+2. Google Fonts for font styles; https://fonts.google.com/
 
 ### Media
-
+* Am I Responsive web site for checking responsiveness on all Apple devices screen sizes; 
+http://ami.responsivedesign.is/
+* Unsplash - Photos
 ### Acknowledgements
+I received inspiration for this project from Code Institute - Project Ideas
