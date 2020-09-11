@@ -196,6 +196,7 @@ footer ul#copyright {
     font-weight: 900;
     letter-spacing: 0.075em;
     line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 footer ul.social-links li {
@@ -282,15 +283,15 @@ footer ul.social-links li a:hover {
     background: url("../images/f.jpg");
     background-size: cover;
     background-position: center;
-    height: 700px;
+    min-height: 700px;
 }
 
 #booking-date {
-    width: 175px; 
+    width: 150px; 
 }
 
 #venue {
-    width: 175px;
+    width: 150px;
 }
 
 #button-container {
