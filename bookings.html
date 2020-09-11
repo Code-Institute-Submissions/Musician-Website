@@ -66,11 +66,7 @@
 					<label for="booking-date">Date: </label>
 				</div>
 				<div class="col-7">
-					<!-- <input placeholder="dd/mm/yyyy" class="form-control" type="date" id="booking-date" name="booking-date" required> -->
-                    <!-- <input placeholder="dd/mm/yyyy" class="form-control" type="text" onfocus="(this.type='date')" id="booking-date" name="booking-date" required> -->
                     <input type="text" class="form-control" placeholder="dd/mm/yyyy" id="booking-date" name="booking-date" required />
-                   
-                    <!-- <input placeholder="dd/mm/yyyy" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="booking-date" name="booking-date" required/> -->
                 </div>
 			</div>
 			<br>
@@ -127,11 +123,11 @@
 	</script>
     <!-- Date Input Script -->
     <script>
-    var textbox = document.getElementById('booking-date')
-        textbox.onfocus = function (event) {
-            this.type = 'date';
-            this.focus();
-        }
+        var textbox = document.getElementById('booking-date')
+            textbox.onfocus = function (event) {
+                this.type = 'date';
+                this.focus();
+            }
     </script>
 </body>
 
