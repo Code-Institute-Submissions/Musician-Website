@@ -287,11 +287,11 @@ footer ul.social-links li a:hover {
 }
 
 #booking-date {
-    width: 150px; 
+    max-width: 75%; 
 }
 
 #venue {
-    width: 150px;
+    width: 75%;
 }
 
 #button-container {
