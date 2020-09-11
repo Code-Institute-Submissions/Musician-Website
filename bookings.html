@@ -68,6 +68,16 @@
 				<div class="col-7">
 					<!-- <input placeholder="dd/mm/yyyy" class="form-control" type="date" id="booking-date" name="booking-date" required> -->
                     <!-- <input placeholder="dd/mm/yyyy" class="form-control" type="text" onfocus="(this.type='date')" id="booking-date" name="booking-date" required> -->
+                    <input type="text" placeholder="DOB" id="dob" />
+                    <script>
+
+    var textbox = document.getElementById('dob')
+        textbox.onfocus = function (event) {
+            this.type = 'date';
+            this.focus();
+    }
+
+</script>
                     <input placeholder="dd/mm/yyyy" class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="booking-date" name="booking-date" required/>
                 </div>
 			</div>
