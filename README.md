@@ -1,6 +1,6 @@
-![responsive-page](assets/images/joe_bloggs_responsive.PNG)
+# <a href="https://daniel-slattery.github.io/Musician-Website/" target="_blank">Joe Bloggs Music</a>
 
-# Joe Bloggs Music
+![responsive-page](assets/images/joe_bloggs_responsive.PNG)
 
 Joe Bloggs Music is a Milestone Project created for the "User Centric Development"
 module of my FullStack Software Development Course offered by Code Institute.
@@ -8,8 +8,6 @@ module of my FullStack Software Development Course offered by Code Institute.
 The website is for a fictional musician named Joe Bloggs based in the city of Galway.
 The website is to advertise upcoming shows, promote the artist, and also give the option to
 make a booking.
-
-### <a href="https://daniel-slattery.github.io/Musician-Website/" target="_blank">Link to live Website</a>
 
 ## UX
 
@@ -44,6 +42,9 @@ There are two additional sections, "Upcoming Gigs" and "Testimonials" to adverti
 * Gallery - A showcase of various pictures of equipment, the artist, the artists band members and live shows.
 
 * Bookings - This page allows the user to fill out a form to enquire about making a booking.
+
+### Features Left to Implement
+* A payment option - Add additional option to pay when making the booking.
 
 ## Technologies Used
 1. HTML5: Used as the base for markup text. https://developer.mozilla.org/en-US/docs/Web/HTML
