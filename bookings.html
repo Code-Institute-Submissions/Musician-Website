@@ -15,120 +15,119 @@
         <link href="assets/css/style.css" rel="stylesheet">
     </head>
   
-  <body>
-  <!-- Nav Bar Header -->
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <a class="navbar-brand logo" href="index.html">Joe Bloggs Music</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Bookings</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!--/END Nav Bar Header -->
-	<section class="form-section">
-		<form class="booking-form" action="https://formdump.codeinstitute.net/" method="POST">
-			<h2>Enquire about Booking Joe Bloggs</h2>
-			<label for="name">Full Name</label>
-			<input class="text-input" type="text" id="name" name="full_name" required>
-			<label for="email">Email Address</label>
-			<input class="text-input" type="email" id="email" name="email_address" required>
+    <body>
+        <!-- Nav Bar Header -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand logo" href="index.html">Joe Bloggs Music</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Bookings</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--/END Nav Bar Header -->
+        <section class="form-section">
+            <form class="booking-form" action="https://formdump.codeinstitute.net/" method="POST">
+                <h2>Enquire about Booking Joe Bloggs</h2>
+                <label for="name">Full Name</label>
+                <input class="text-input" type="text" id="name" name="full_name" required>
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
 
-			<div class="row">
-				<div class="col-3 col-sm-5">
-					<label for="venue">Venue: </label>
-				</div>
-				<div class="col-9 col-sm-7">
-					<select name="venue" id="venue">
-                        <option value="bar-gig">Bar</option>
-                        <option value="wedding">Wedding</option>
-                        <option value="private-function">Private Function</option>
-                        <option value="other">Other</option>
-                    </select>
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-3 col-sm-5">
-					<label for="booking-date">Date: </label>
-				</div>
-				<div class="col-9 col-sm-7">
-                    <input type="text" class="form-control" placeholder="dd/mm/yyyy" id="booking-date" name="booking-date" required />
+                <div class="row">
+                    <div class="col-3 col-sm-5">
+                        <label for="venue">Venue: </label>
+                    </div>
+                    <div class="col-9 col-sm-7">
+                        <select name="venue" id="venue">
+                            <option value="bar-gig">Bar</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="private-function">Private Function</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
                 </div>
-			</div>
-			<br>
-            <div class="row">
-                <div class="col-7 col-sm-5">
-                    <label for="full-band">Full Band </label>
+                <br>
+                <div class="row">
+                    <div class="col-3 col-sm-5">
+                        <label for="booking-date">Date: </label>
+                    </div>
+                    <div class="col-9 col-sm-7">
+                        <input type="text" class="form-control" placeholder="dd/mm/yyyy" id="booking-date" name="booking-date" required />
+                    </div>
                 </div>
-                <div class="col-1">
-                    <i class="fa fa-users" aria-hidden="true"></i>
+                <br>
+                <div class="row">
+                    <div class="col-7 col-sm-5">
+                        <label for="full-band">Full Band </label>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-3">
+                        <input type="radio" id="full-band" name="band-size-preference" required value="full-band">
+                    </div>
                 </div>
-                <div class="col-3">
-                    <input type="radio" id="full-band" name="band-size-preference" required value="full-band">
+                <br>
+                <div class="row">
+                    <div class="col-7 col-sm-5">
+                        <label for="solo-band">Just Joe Bloggs </label>
+                    </div>
+                    <div class="col-1"><i class="fa fa-user"></i></div>
+                    <div class="col-3">
+                        <input type="radio" id="solo-band" name="band-size-preference" required value="solo-band">
+                    </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-7 col-sm-5">
-                    <label for="solo-band">Just Joe Bloggs </label>
+                <div id="button-container">
+                    <button type="submit" class="btn btn-lg btn-info">Book a Gig! <i class="fa fa-music" aria-hidden="true"></i></button>
                 </div>
-                <div class="col-1"><i class="fa fa-user"></i></div>
-                <div class="col-3">
-                    <input type="radio" id="solo-band" name="band-size-preference" required value="solo-band">
-                </div>
-            </div>
-            <div id="button-container">
-                <button type="submit" class="btn btn-lg btn-info">Book a Gig! <i class="fa fa-music" aria-hidden="true"></i></button>
-            </div>
-		</form>
-	</section>
+            </form>
+        </section>
 
-	<!-- FOOTER -->
-	<footer>
-		<ul class="social-links">
-			<li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			<li class="left-border"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			<li class="left-border"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-			<li class="left-border"><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
-		</ul>
-		<ul id="copyright">
-			<li>&copy; Joe Bloggs Music</li>
-			<li>Website Created by Daniel Slattery</li>
-		</ul>
-	</footer>
+        <!-- FOOTER -->
+        <footer>
+            <ul class="social-links">
+                <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li class="left-border"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li class="left-border"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li class="left-border"><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <ul id="copyright">
+                <li>&copy; Joe Bloggs Music</li>
+                <li>Website Created by Daniel Slattery</li>
+            </ul>
+        </footer>
 
-	<!-- JS, Popper.js, and jQuery -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-    <!-- Date Input Script -->
-    <script>
-        var textbox = document.getElementById('booking-date')
-            textbox.onfocus = function (event) {
-                this.type = 'date';
-                this.focus();
-            }
-    </script>
-</body>
-
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <!-- Date Input Script -->
+        <script>
+            var textbox = document.getElementById('booking-date')
+                textbox.onfocus = function (event) {
+                    this.type = 'date';
+                    this.focus();
+                }
+        </script>
+    </body>
 </html>
