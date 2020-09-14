@@ -23,6 +23,17 @@ The website is simple and structured in a way that is easy and intuitive to navi
 * As a user I also want to be able to navagate through photos and and navagate to the artists social media pages. 
 * As a user I would also like to enquire about booking the artist.
 
+### Wire Frames
+* #### Desktop Layout
+    My desktop wireframes for this project can be found in the UX folder.
+
+    *  [Desktop Wireframe](assets/UX/Desktop-Layout.pdf)
+
+* #### Mobile Layout
+    My mobile wireframes for this project are shown below;
+
+![responsive-page](assets/UX/Phone-Layout.png)
+
 ## Features
 
 ### Existing Features
