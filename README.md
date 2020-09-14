@@ -21,6 +21,22 @@ The website is simple and structured in a way that is easy and intuitive to navi
 * As a user I also want to be able to navagate through photos and and navagate to the artists social media pages. 
 * As a user I would also like to enquire about booking the artist.
 
+### Design
+A standard layout is fully responsive on mobile devices and larger screens.
+#### Libraries Used
+* Bootstrap 4 - is a framework for building responsive, mobile-first websites.
+
+#### Color Scheme
+* ![responsive-page](assets/UX/color_scheme/button-cyan.PNG)
+* ![responsive-page](assets/UX/color_scheme/Heading-gray.PNG)
+* ![responsive-page](assets/UX/color_scheme/muted-gray.PNG)
+
+#### Typography
+2 Google Fonts were used across the site:
+
+* Open Sans : body text
+* Source Sans Pro : #gig-date, footer ul#copyright
+
 ### Wire Frames
 * #### Desktop Layout
     My desktop wireframes for this project can be found in the UX folder.
