@@ -102,7 +102,7 @@ nav {
 /* ---------------------------------Upcoming Gigs Cards */
 
 .featurette-divider {
-    margin: 2vh 0; /* Space out the Bootstrap <hr> more */
+    margin: 3vh 0; /* Space out the Bootstrap <hr> more */
     height: 1px;
     border: 0;
     background: #17a2b8;
