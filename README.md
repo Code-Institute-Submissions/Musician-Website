@@ -80,33 +80,48 @@ There are two additional sections, "Upcoming Gigs" and "Testimonials" to adverti
 8. W3C Markup Validation Service Used to run all html and css code thru a validation process looking for errors. https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator
 
 ## Testing
-1. I have validated all HTML files and CSS using online validation sites cited below.
+Testing was conducted during this project to fix bugs and ensure the website worked as per user stories specifications. Below I outlined most of what I did below for 
+documentation purposes.
+
+### Code Validators
+I have validated all HTML files and CSS using online validation sites cited below.
     *  #### HTML - [W3C HTML Validator](https://validator.w3.org/)
     *  #### CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+### Responsive Design Testing
+1. http://ami.responsivedesign.is/ has been used to see how the site performs on different view port sized devices.
 
-2. http://ami.responsivedesign.is/ has been used to see how the site performs on different view port sized devices.
+2. Chrome DevTools was used to manually test for the various mobile viewport sizes.
 
-3. Desktop
+### Browser Compatibility
 Google Chrome, Internet Edge & Mozilla Firefox browsers; all pages, links on those pages, and footer icon links perform well on all viewport sizes. 
 
-4. Mobile
-Chrome DevTools was used to test for the various mobile viewport sizes.
+### Booking Form Testing
+I tested the booking form on Google Chrome, Internet Edge & Mozilla Firefox and safari browsers. One issue I had was with the date input. Not all 
+browsers recognise the date input type. I had to change this to input type to = 'text' and I added some custom javascript so the text input field behaved as a date input.
 
-5. Booking Form
-    * Go to Bookings page
-    * Try to submit the form without a correct syntax e-mail address and you will get an error message requesting a proper e-mail address be entered.
-    * Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
-    * When you do hit the Submit button, the code-institute form dump page will load showing the details of info submitted from the form.
+To test the Booking Form;
+* Go to Bookings page
+* Try to submit the form without a correct syntax e-mail address and you will get an error message requesting a proper e-mail address be entered.
+* Trying to submit the form with any empty fields will also give you a "Please fill out this field" message.
+* When you do hit the Submit button, the code-institute form dump page will load showing the details of info submitted from the form.
 
 ## Deployment
-Joe Bloggs Music was developed using Gitpod, and all commits were pushed to Github using Git.
+Joe Bloggs Music was developed using Gitpod, and all commits were pushed to Github using Git. In order to get the application ready for deployment I followed these steps:
 
 1. I uploaded all files to my Github repository located at this url; https://github.com/Daniel-Slattery/Musician-Website which is for this individual project.
 
-2. To publish the project to see it working as a live website, I published the master branch of my 
-Github repository using Github Pages. 
-Web site is published at https://daniel-slattery.github.io/Musician-Website/
+2. To publish the project to see it working as a live website, I then went into the Settings on my respository, scrolled down to the heading, GitHub Pages. Under the Source setting, 
+I used the drop-down menu to select master branch as a publishing source and saved it. Refreshed the github page, and you are then given a url where your page is published; 
+Your site is published at https://daniel-slattery.github.io/Musician-Website/
+
+3. To run this code on your local machine, you would go to my respository at https://github.com/Daniel-Slattery/Musician-Website and on the home page on the right hand side 
+just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download 
+as a zip file. To continue with cloning, you would;
+    * Open Git Bash
+    * Change the current working directory to the location where you want the cloned directory to be made.
+    * Type git clone, and then paste this URL; https://github.com/Daniel-Slattery/Musician-Website.git Press Enter. Your local clone will be created.
+For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ## Credits
 
