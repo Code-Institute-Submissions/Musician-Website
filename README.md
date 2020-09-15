@@ -13,7 +13,7 @@ module of my FullStack Software Development Course offered by Code Institute.
         * [Libraries used](#libraries)
         * [Color Scheme](#color-scheme)
         * [Typography](#typography)
-    * [Wireframes](#wireframes)
+    * [Wireframes](#wire-frames)
         * [Desktop Layout](#desktop-layout)
         * [Mobile Layout](#mobile-layout)
 3. [Features](#features)
@@ -126,7 +126,7 @@ I have validated all HTML files and CSS using online validation sites cited belo
 *  HTML - [W3C HTML Validator](https://validator.w3.org/)
 *  CSS - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-<h3 id='responsive-design'>Responsive Design Testing</h3>
+<h3 id='responsive'>Responsive Design Testing</h3>
 
 1. http://ami.responsivedesign.is/ has been used to see how the site performs on different view port sized devices.
 
